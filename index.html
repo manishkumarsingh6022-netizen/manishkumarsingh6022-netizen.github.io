@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Manish Singh's developer portfolio — a B.Tech Computer Science student learning, building, and growing." />
+  <title>Manish Singh | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Manish Singh home"><span class="brand-mark">M<span>.</span></span><span>MANISH SINGH</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="nav-cta">Let's connect <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE STUDENT <span class="eyebrow-line"></span></div>
+        <h1>Building my<br>way into <span class="accent-text">tech<span class="period">.</span></span></h1>
+        <p class="hero-description">Hey, I'm <strong>Manish Singh</strong> — a B.Tech Computer Science student focused on learning to code, solving problems, and turning ideas into useful projects.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span>↘</span></a><a class="button button-ghost" href="#contact">Get in touch <span>↗</span></a></div>
+        <div class="hero-meta"><span><i>01</i> Curious by nature</span><span><i>02</i> Learning by building</span></div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Decorative code card">
+        <div class="visual-grid"></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="code-top"><div class="window-dots"><b></b><b></b><b></b></div><span>about_me.js</span><span class="code-menu">•••</span></div>
+          <div class="code-body"><p><span class="code-purple">const</span> <span class="code-blue">developer</span> = {</p><p class="indent"><span class="code-red">name</span>: <span class="code-green">"Manish Singh"</span>,</p><p class="indent"><span class="code-red">field</span>: <span class="code-green">"Computer Science"</span>,</p><p class="indent"><span class="code-red">mindset</span>: <span class="code-green">"Keep learning"</span>,</p><p class="indent"><span class="code-red">status</span>: <span class="code-green">"Building projects"</span></p><p>};</p><p class="code-comment">// turning curiosity into code</p><p><span class="code-purple">while</span> (learning) {</p><p class="indent"><span class="code-blue">keepBuilding</span>();<span class="cursor">▍</span></p><p>}</p></div>
+          <div class="code-footer"><span><span class="tiny-green"></span> Available to learn & collaborate</span><span>UTF-8</span></div>
+        </div>
+        <div class="floating-tag tag-top">&lt; code /&gt;</div><div class="floating-tag tag-bottom"><span>✳</span> Ideas → Projects</div>
+      </div>
+      <a href="#about" class="scroll-cue"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="about section-wrap section-block" id="about">
+      <div class="section-label reveal"><span>01 / ABOUT</span><span class="label-line"></span></div>
+      <div class="about-layout">
+        <h2 class="section-heading reveal">A student today.<br><span class="muted-heading">A builder in progress.</span></h2>
+        <div class="about-text reveal"><p>I'm pursuing a <strong>B.Tech in Computer Science and Engineering</strong>. I'm developing my foundations in programming and exploring how technology can solve real-world problems.</p><p>This website is my digital workspace — a place to document what I learn, share projects as I build them, and connect with people in tech.</p><div class="about-note"><span class="note-symbol">✳</span><span><strong>My current approach</strong><br>Learn the basics. Build consistently. Improve with every project.</span></div></div>
+      </div>
+      <div class="stats-row reveal"><div class="stat"><span class="stat-number">01</span><span class="stat-label">Curiosity first</span></div><div class="stat"><span class="stat-number">∞</span><span class="stat-label">Things to learn</span></div><div class="stat"><span class="stat-number">↗</span><span class="stat-label">Always improving</span></div></div>
+    </section>
+
+    <section class="skills section-wrap section-block" id="skills">
+      <div class="section-label reveal"><span>02 / SKILLS</span><span class="label-line"></span></div>
+      <div class="section-title-row reveal"><h2 class="section-heading">Tools I'm learning<span class="accent-text">.</span></h2><p>My skill set will grow as I learn, practise, and build.</p></div>
+      <div class="skills-grid reveal">
+        <article class="skill-card"><span class="skill-index">01</span><div class="skill-icon">C<span>++</span></div><h3>C++</h3><p>Programming fundamentals & problem-solving</p><span class="skill-status"><i></i> Learning</span></article>
+        <article class="skill-card"><span class="skill-index">02</span><div class="skill-icon python-icon">Py</div><h3>Python</h3><p>Core syntax, logic & small programs</p><span class="skill-status"><i></i> Learning</span></article>
+        <article class="skill-card"><span class="skill-index">03</span><div class="skill-icon html-icon">&lt;/&gt;</div><h3>HTML & CSS</h3><p>Building the structure and style of websites</p><span class="skill-status"><i></i> In progress</span></article>
+        <article class="skill-card skill-card-next"><span class="skill-index">04</span><div class="skill-icon js-icon">JS</div><h3>JavaScript</h3><p>Interactive web experiences — next on my roadmap</p><span class="skill-status status-planned"><i></i> Exploring next</span></article>
+      </div>
+      <p class="small-disclaimer reveal">This section reflects my learning journey. I'll update it as my skills develop.</p>
+    </section>
+
+    <section class="projects section-wrap section-block" id="projects">
+      <div class="section-label reveal"><span>03 / PROJECTS</span><span class="label-line"></span></div>
+      <div class="section-title-row reveal"><h2 class="section-heading">Things I'm building<span class="accent-text">.</span></h2><p>Small steps become meaningful work. Real projects will appear here as I complete them.</p></div>
+      <div class="project-grid reveal">
+        <article class="project-card project-featured"><div class="project-art art-portfolio"><div class="art-browser"><div class="art-dots">● ● ●</div><div class="art-lines"><span></span><span></span><span></span></div><div class="art-block"></div></div><span class="art-caption">01 / PERSONAL</span></div><div class="project-info"><div class="project-topline"><span>PORTFOLIO</span><span>2026</span></div><h3>Personal Developer Portfolio</h3><p>This website — built to introduce me, share my learning journey, and make it easier to connect.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><span class="project-link current-project">You're viewing it <span>↗</span></span></div></article>
+        <article class="project-card"><div class="project-art art-terminal"><div class="terminal-window"><div class="terminal-head">terminal — bash</div><p><span>$</span> ./hello_world</p><p class="terminal-output">Hello, world!<b>_</b></p><p class="terminal-muted">// first steps count</p></div><span class="art-caption">02 / PRACTICE</span></div><div class="project-info"><div class="project-topline"><span>PROGRAMMING</span><span>UP NEXT</span></div><h3>Programming Practice Log</h3><p>A planned collection of C++ and Python exercises to track concepts, practise logic, and measure progress.</p><div class="tag-list"><span>C++</span><span>Python</span><span>Problem solving</span></div><span class="project-link project-planned">Planned project <span>↗</span></span></div></article>
+      </div>
+      <div class="project-hint reveal"><span>✳</span> More projects will be added as I build and learn. No fake demos — just progress.</div>
+    </section>
+
+    <section class="contact section-wrap section-block" id="contact">
+      <div class="contact-panel reveal"><div class="contact-decoration">LET'S<br>BUILD<span>.</span></div><div class="contact-content"><div class="section-label"><span>04 / CONTACT</span><span class="label-line"></span></div><h2>Have an idea?<br><span class="muted-heading">Let's connect.</span></h2><p>I'm open to learning from others, discussing tech, and collaborating on beginner-friendly projects.</p><div class="contact-links"><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" class="contact-link" id="linkedin-link">LinkedIn <span>↗</span></a><a href="https://github.com/" target="_blank" rel="noreferrer" class="contact-link" id="github-link">GitHub <span>↗</span></a><a href="mailto:hello@example.com" class="contact-link" id="email-link">Email <span>↗</span></a></div><p class="edit-hint">Remember to replace these placeholder links with your own profile details.</p></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap"><a class="brand footer-brand" href="#home"><span class="brand-mark">M<span>.</span></span><span>MANISH SINGH</span></a><span>Designed with curiosity. Built with code.</span><a href="#home" class="back-top">BACK TO TOP ↑</a><span class="copyright">© <span id="year"></span> Manish Singh</span></footer>
+</body>
+</html>
